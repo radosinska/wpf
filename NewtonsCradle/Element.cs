@@ -66,9 +66,9 @@ namespace NewtonsCradle
            acceleration_next = (-9.81 / 175) * Math.Sin(angle_next);
            velocity_next = velocity_halfnext + 0.5 * acceleration_next * dt;
 
-           System.Diagnostics.Debug.WriteLine("angle_next: " + angle_next);
-           System.Diagnostics.Debug.WriteLine("velocity_next: " + velocity_next);
-           System.Diagnostics.Debug.WriteLine("acceleration_next: " + acceleration_next);
+           //System.Diagnostics.Debug.WriteLine("angle_next: " + angle_next);
+           //System.Diagnostics.Debug.WriteLine("velocity_next: " + velocity_next);
+           //System.Diagnostics.Debug.WriteLine("acceleration_next: " + acceleration_next);
 
            _angle = angle_next;
            _velocity = velocity_next;
